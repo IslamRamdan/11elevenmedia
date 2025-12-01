@@ -903,8 +903,8 @@
                                     </h3>
 
                                     <p class="card-text text-white-50 small flex-grow-1"
-                                        data-en="{{ $blog->content_en }}" data-ar="{{ $blog->content_ar }}">
-                                        {!! \Illuminate\Support\Str::limit($blog->content_ar, 100) !!}
+                                        data-en="{!! \Illuminate\Support\Str::limit($blog->content_er, 100) !!}" data-ar="{!! \Illuminate\Support\Str::limit($blog->content_ar, 100) !!}">
+                                        {{-- {!! \Illuminate\Support\Str::limit($blog->content_ar, 100) !!} --}}
                                     </p>
 
                                     <div class="d-flex justify-content-between align-items-center mb-3">

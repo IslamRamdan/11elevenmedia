@@ -389,3 +389,45 @@ window.addEventListener("load", () => {
 
     if (typeof AOS !== 'undefined' && typeof AOS.refresh === 'function') AOS.refresh();
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    const wrapper = document.querySelector('.eleven-wrapper');
+    const angles = [0, 60, 120, 180, 240, 300]; // Your radial line angles
+
+    function triggerParticleBurst() {
+        // Create 1 particle for each line
+        angles.forEach((angle) => {
+            createParticle(angle);
+
+            // Optional: Create a second trailing particle for a "stream" effect
+            setTimeout(() => createParticle(angle), 150);
+        });
+    }
+
+    function createParticle(deg) {
+        const p = document.createElement('div');
+        p.classList.add('radial-particle');
+
+        // Set the direction variable for CSS
+        p.style.setProperty('--angle', `${deg}deg`);
+
+        // Randomize speed slightly for organic feel (between 1.2s and 1.8s)
+        const duration = 1.2 + Math.random() * 0.6;
+        p.style.animationDuration = `${duration}s`;
+
+        wrapper.appendChild(p);
+
+        // Remove element from DOM after animation finishes
+        setTimeout(() => {
+            p.remove();
+        }, duration * 1000);
+    }
+
+    // 1. Trigger immediately on load
+    triggerParticleBurst();
+
+    // 2. Sync with your existing CSS 'glow-ring' animation (4s duration)
+    setInterval(triggerParticleBurst, 4000);
+});
