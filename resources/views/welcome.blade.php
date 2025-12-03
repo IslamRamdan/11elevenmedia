@@ -83,9 +83,15 @@
                         </p>
 
                         <div class="d-flex flex-wrap gap-3 align-items-center mt-4">
-                            <button class="btn-start" data-en="Get Started" data-ar="ابدأ الآن">
-                                Get Started
-                            </button>
+              <a href="tel:+962792002602"
+   class="btn-start"
+   style="text-decoration: none;" 
+   data-en="Call Now"
+   data-ar="اتصل الآن">
+    Call Now
+</a>
+
+
 
                             <span class="rating ms-3">
                                 <span>★★★★★</span>
