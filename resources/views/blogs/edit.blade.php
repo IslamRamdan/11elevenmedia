@@ -24,12 +24,12 @@
 
         <div class="form-group mb-3">
             <label>المحتوى بالعربي</label>
-            <textarea name="content_ar" class="form-control" rows="5" required>{{ old('content_ar', $blog->content_ar) }}</textarea>
+            <textarea name="content_ar" class="form-control" rows="5">{{ old('content_ar', $blog->content_ar) }}</textarea>
         </div>
 
         <div class="form-group mb-3">
             <label>المحتوى بالإنجليزي</label>
-            <textarea name="content_en" class="form-control" rows="5" required>{{ old('content_en', $blog->content_en) }}</textarea>
+            <textarea name="content_en" class="form-control" rows="5">{{ old('content_en', $blog->content_en) }}</textarea>
         </div>
 
         <div class="form-group mb-3">

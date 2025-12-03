@@ -48,7 +48,8 @@
                         class="d-flex gap-3 social-icons ms-auto justify-content-center align-items-center mt-3 mt-lg-0">
                         <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/eleven.mediaagency?igsh=bmhna2oxbDBpZjVx"
+                            class="social-link"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
                     </div>
                 </div>
@@ -194,10 +195,9 @@
 
                         <div class="mb-5">
                             <div class="position-relative d-flex justify-content-center align-items-center mt-4">
-                                <img src="{{ asset('images/about-1.jpg') }}" class="img-fluid mx-auto first-img"
-                                    alt="">
+                                <img src="images/about-1.jpg" class="img-fluid mx-auto first-img" alt="">
                                 <div class="hook-wrapper">
-                                    <img src="{{ asset('images/header-1.jpg') }}" class="img-fluid hook-img"
+                                    <img src="{{ asset('images/about-2.jpg') }}" class="img-fluid hook-img"
                                         alt="">
                                 </div>
                             </div>
@@ -313,7 +313,6 @@
                 </div>
             </div>
         </section>
-
         <section class="services-section py-5 position-relative" id="services">
             <div class="top"></div>
             <div class="bottom"></div>
@@ -591,7 +590,7 @@
                     <div class="col-md-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="service-card h-100">
                             <div class="img">
-                                <img src="{{ asset('images/service-4.webp') }}" class="img-fluid"
+                                <img src="{{ asset('images/service-4.jpg') }}" class="img-fluid"
                                     alt="Social Media Account Management">
                             </div>
 
@@ -868,7 +867,8 @@
                 <div class="social-floating">
                     <a class="icon icon-1"><i class="fab fa-facebook-f"></i></a>
                     <a class="icon icon-2"><i class="fab fa-twitter"></i></a>
-                    <a class="icon icon-3"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/eleven.mediaagency?igsh=bmhna2oxbDBpZjVx"
+                        class="icon icon-3"><i class="fab fa-instagram"></i></a>
                     <a class="icon icon-4"><i class="fab fa-linkedin-in"></i></a>
                     <a class="icon icon-5"><i class="fab fa-youtube"></i></a>
                 </div>
@@ -1140,7 +1140,8 @@
 
                     <a href="#" class="social-btn" data-en="Facebook" data-ar="فيسبوك">Facebook</a>
 
-                    <a href="#" class="social-btn" data-en="Instagram" data-ar="إنستغرام">Instagram</a>
+                    <a href="https://www.instagram.com/eleven.mediaagency?igsh=bmhna2oxbDBpZjVx" class="social-btn"
+                        data-en="Instagram" data-ar="إنستغرام">Instagram</a>
 
                     <a href="#" class="social-btn" data-en="Twitter" data-ar="تويتر">Twitter</a>
 
