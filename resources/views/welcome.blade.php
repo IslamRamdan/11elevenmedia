@@ -195,7 +195,8 @@
 
                         <div class="mb-5">
                             <div class="position-relative d-flex justify-content-center align-items-center mt-4">
-                                <img src="images/about-1.jpg" class="img-fluid mx-auto first-img" alt="">
+                                <img src="{{ asset('images/about-1.jpg') }}" class="img-fluid mx-auto first-img"
+                                    alt="">
                                 <div class="hook-wrapper">
                                     <img src="{{ asset('images/about-2.jpg') }}" class="img-fluid hook-img"
                                         alt="">
