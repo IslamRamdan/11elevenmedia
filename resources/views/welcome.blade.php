@@ -390,6 +390,7 @@
                                         Paid Advertising Campaigns
                                     </h5>
                                 </div>
+                                
 
                                 <p class="text-muted mb-4"
                                     data-en="We create professional and data-driven advertising campaigns across all social media platforms, designed to ensure the highest return on investment."
@@ -1120,21 +1121,26 @@
                     <h5 class="fw-bold mb-3" data-en="Services" data-ar="الخدمات">
                         Services
                     </h5>
-                    <ul class="list-unstyled footer-links p-0">
-                        <li><a href="index.html#services" data-en="Paid Advertising Campaigns"
-                                data-ar="حملات الإعلانات المدفوعة">Paid
-                                Advertising Campaigns</a></li>
-                        <li><a href="index.html#services" data-en="Creative Content Production"
-                                data-ar="إنتاج المحتوى الإبداعي">Creative
-                                Content Production</a></li>
-                        <li><a href="index.html#services" data-en="Photography & Visual Production"
-                                data-ar="التصوير والإنتاج المرئي">Photography & Visual Production</a></li>
-                        <li><a href="index.html#services" data-en="Social Media Account Management"
-                                data-ar="إدارة حسابات التواصل الاجتماعي">Social Media Account Management</a></li>
-                        <li><a href="index.html#services" data-en="Customized Marketing Solutions"
-                                data-ar="حلول تسويقية مخصصة">Customized
-                                Marketing Solutions</a></li>
-                    </ul>
+                   <ul class="list-unstyled footer-links p-0">
+    <li><a href="#services" data-en="Paid Advertising Campaigns"
+            data-ar="حملات الإعلانات المدفوعة">Paid
+            Advertising Campaigns</a></li>
+
+    <li><a href="#services" data-en="Creative Content Production"
+            data-ar="إنتاج المحتوى الإبداعي">Creative
+            Content Production</a></li>
+
+    <li><a href="#services" data-en="Photography & Visual Production"
+            data-ar="التصوير والإنتاج المرئي">Photography & Visual Production</a></li>
+
+    <li><a href="#services" data-en="Social Media Account Management"
+            data-ar="إدارة حسابات التواصل الاجتماعي">Social Media Account Management</a></li>
+
+    <li><a href="#services" data-en="Customized Marketing Solutions"
+            data-ar="حلول تسويقية مخصصة">Customized
+            Marketing Solutions</a></li>
+</ul>
+
                 </div>
 
             </div>
